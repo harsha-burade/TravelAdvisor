@@ -1,0 +1,158 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:Arial,sans-serif;
+}
+
+body{background:#f2f2f2;color:#333}
+
+/* Header */
+.top-header{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:15px 40px;
+  background:#fff;
+}
+
+.logo{font-size:24px;font-weight:bold;color:#004f32}
+.menu{display:flex;gap:30px}
+
+/* Title */
+.main-title{
+  text-align:center;
+  font-size:48px;
+  margin-top:20px;
+}
+
+/* Navbar */
+.navbar{
+  display:flex;
+  justify-content:center;
+  gap:40px;
+  margin:20px 0;
+}
+
+.navbar .active{
+  border-bottom:3px solid #000;
+  padding-bottom:5px;
+}
+
+/* Search */
+.search-bar{
+  width:60%;
+  margin:20px auto;
+  display:flex;
+  background:#fff;
+  border-radius:50px;
+  overflow:hidden;
+  box-shadow:0 2px 8px rgba(0,0,0,0.1);
+}
+
+.search-bar input{
+  flex:1;
+  padding:15px;
+  border:none;
+  outline:none;
+}
+
+.search-bar button{
+  background:#00aa55;
+  color:#fff;
+  border:none;
+  padding:0 25px;
+  border-radius:50px;
+  cursor:pointer;
+}
+
+/* Hero */
+.hero-box{
+  width:85%;
+  margin:40px auto;
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  background:#00e066;
+  border-radius:15px;
+  overflow:hidden;
+}
+
+.hero-img img,
+.interest-card img,
+.card img{
+  width:100%;
+  object-fit:cover;
+}
+
+.hero-img img{height:100%}
+.interest-card img{height:140px}
+.card img{height:180px}
+
+.hero-content{
+  padding:40px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+}
+
+.hero-content h1{font-size:36px;margin-bottom:15px}
+.hero-content p{margin-bottom:20px}
+
+.hero-content button{
+  width:150px;
+  padding:12px;
+  border:none;
+  border-radius:25px;
+  background:#000;
+  color:#fff;
+}
+
+/* Sections */
+.interests,.destinations{
+  padding:0 40px;
+  margin-top:40px;
+}
+
+h2{margin-bottom:20px}
+
+/* Grid */
+.interest-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+  gap:25px;
+}
+
+.cards{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+  gap:30px;
+}
+
+/* Cards */
+.interest-card,.card{
+  background:#fff;
+  border-radius:12px;
+  overflow:hidden;
+}
+
+.interest-card span{
+  display:block;
+  padding:10px;
+  font-weight:bold;
+}
+.interest-card img{
+  height:180px;
+}
+
+.card img{
+  height:220px;
+}
+
+.card-content{padding:15px}
+/* Footer */
+footer{
+text-align:center;
+padding:15px;
+background:#00a680;
+color:white;
+}
