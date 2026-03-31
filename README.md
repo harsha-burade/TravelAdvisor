@@ -22,9 +22,8 @@ This project is a static layout of the Tripadvisor homepage designed to showcase
 *  Structured layout using grid and flexbox
 *  Basic JavaScript for simple interactions
 
-# Algorithm Used: The project uses a Search and Filter algorithm based on string matching to display relevant destinations. 
-
  HOW IT ALL WORKS — TECHNICAL PIPELINE
+ 
 -----------------------------------------------------
 
 | STEP 1: USER INPUT (Search begins here)            |
@@ -71,6 +70,7 @@ This project is a static layout of the Tripadvisor homepage designed to showcase
 -------------------------
 |         END           |
 -------------------------
+
  # 🛠️ Technologies Used
 
  **HTML5** – Structure of the website  
