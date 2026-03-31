@@ -23,53 +23,43 @@ This project is a static layout of the Tripadvisor homepage designed to showcase
 *  Basic JavaScript for simple interactions
 
  HOW IT ALL WORKS — TECHNICAL PIPELINE
- 
------------------------------------------------------
 
-| STEP 1: USER INPUT (Search begins here)            |
-| User enters destination in search bar              |
-| Example: "Goa"                                     |
------------------------------------------------------
+ STEP 1: USER INPUT (Search begins here)            
+ User enters destination in search bar              
+ Example: "Goa"                                     
                          ↓
 
------------------------------------------------------
-| STEP 2: INPUT PROCESSING                           |
-| Convert input text to lowercase                    |
-| Removes case sensitivity issues                   |
------------------------------------------------------
+ STEP 2: INPUT PROCESSING                           
+ Convert input text to lowercase                    
+ Removes case sensitivity issues                   
+
+                         ↓
+                         
+ STEP 3: DATA COLLECTION (Static Data)              
+ Fetch destination cards from HTML                  
+ Example: Goa, Manali, Jaipur                       
+
+                         ↓
+                         
+ STEP 4: MATCHING ALGORITHM (Filtering)         
+ Compare user input with destination names          
+ Uses string matching (includes function)           
+
                          ↓
 
------------------------------------------------------
-| STEP 3: DATA COLLECTION (Static Data)              |
-| Fetch destination cards from HTML                  |
-| Example: Goa, Manali, Jaipur                       |
------------------------------------------------------
+ STEP 5: RESULT FILTERING                           
+ If match found → Show card                         
+ If no match → Hide card                            
+
                          ↓
 
------------------------------------------------------
-| STEP 4: MATCHING ALGORITHM (Filtering)             |
-| Compare user input with destination names          |
-| Uses string matching (includes function)           |
------------------------------------------------------
-                         ↓
+ STEP 6: OUTPUT DISPLAY                             
+ Display only matching destinations on screen       
+ Updates results dynamically                        
 
------------------------------------------------------
-| STEP 5: RESULT FILTERING                           |
-| If match found → Show card                         |
-| If no match → Hide card                            |
------------------------------------------------------
                          ↓
+        END           
 
------------------------------------------------------
-| STEP 6: OUTPUT DISPLAY                             |
-| Display only matching destinations on screen       |
-| Updates results dynamically                        |
------------------------------------------------------
-                         ↓
-
--------------------------
-|         END           |
--------------------------
 
  # 🛠️ Technologies Used
 
